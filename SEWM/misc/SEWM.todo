@@ -1,0 +1,32 @@
+V1.0
+:Add GUI
+>Add ServerConfig SubGUI
+ >Add UserConfig SubGUI
+  >Implement User Authentication and Key Exchange
+>*Add ConsoleWindow SubGUI
+ >*Implement Custom Output Stream to ConsoleWindow
+
+:Add Encryption Handler
+>Add Public Key encryption
+ >Public Key Decryption
+ 
+:Add TCP Based Communication Protocols
+>TCP Based Encrypted Eclipse Workspace Management Protocol
+ >Encrypted File Transfer Protocol			(EFTP)
+ >Encrypted Workspace Management Commands	(EWMC) 
+
+:Add Local Workspace Management Interface
+>EWMC Interpreter
+ >File Command Implementation (Move,Copy,Delete,Rename,Create,List)
+ >Directory Command Implementation (Create,Delete,Move,List)
+ >*Remote Files and Dependencies (Get, Verify, Push, List)
+ >Workspace Command Implementation (Launch,List)
+
+:Add Logger
+>*Add Log-rotate
+
+:Add Configuration File
+>Add Configuration Auto-Loader
+ >Implement Configuration Auto-Create and Update
+>Add Log File Path Option
+>*Auto-Refresh Option for Remote Workspaces with given Delay 
